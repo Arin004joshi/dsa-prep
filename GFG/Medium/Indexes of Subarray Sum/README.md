@@ -29,5 +29,3 @@ Company Tags
 Topic Tags
 Related Interview Experiences
 Related Articles
-Report An Issue
-If you are facing any issue on this page. Please let us know.
