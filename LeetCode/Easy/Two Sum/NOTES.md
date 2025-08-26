@@ -1,8 +1,8 @@
 
           Two Sum
 
-          - Summary: This Java code uses a HashMap to efficiently solve the Two Sum problem. It first populates the HashMap with each number from the input array as the key and its index as the value. Then, it iterates through the array again; for each number, it checks if the complement (target - number) exists in the HashMap. If the complement exists and its index is different from the current number's index, it means a pair adding up to the target is found, and their indices are returned. Otherwise, the loop continues until a pair is found or the array is exhausted.
+          - Summary: This Java code utilizes a HashMap to efficiently find two numbers within an array that add up to a specified target.  The algorithm first populates the HashMap with array elements as keys and their indices as values. Then, it iterates through the array; for each number, it checks if the complement (target - number) exists in the HashMap. If the complement is found and its index differs from the current number's index, it signifies a pair, and their indices are returned. Otherwise, the loop continues until a pair is found or the array is exhausted.
 
-          - Time Complexity: O(n) because the code iterates through the input array of size 'n' twice, once to populate the HashMap and once to search for the complement.  Hashmap operations (put and containsKey) take O(1) on average.
-          - Space Complexity: O(n) because the HashMap stores up to 'n' key-value pairs in the worst case, where each number in the input array is unique.
+          - Time Complexity: O(n) because the code iterates through the input array 'nums' once to populate the HashMap and then iterates through it again at most once to find the pair. HashMap operations (containsKey, get, put) have an average time complexity of O(1).
+          - Space Complexity: O(n) because in the worst-case scenario, the HashMap 'mp' will store all 'n' elements from the input array 'nums'.
           
