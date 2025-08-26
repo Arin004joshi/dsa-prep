@@ -1,9 +1,10 @@
 
-          - Title: Pow(x, n)
+          Pow(x, n)
+
           - Diffiiculty: Medium
 
-          - Summary: This Java code calculates x raised to the power of n using the built-in Math.pow() function.  No custom data structures are used; the function directly utilizes the Math library's pow method, which internally handles the exponentiation calculation. The function takes a double x and an integer n as input and returns the result of x raised to the power of n as a double.
+          - Summary: The code utilizes the built-in Math.pow() function to compute x raised to the power of n.  No explicit data structures are used; the function directly leverages the functionality provided by the Java Math library.  The execution flow involves a single line: the function call to Math.pow(x,n) which calculates and returns the result. The function doesn't involve any loops or iterative steps.
 
-          - Time Complexity: O(1) - The Math.pow() function in Java typically uses optimized algorithms (often involving logarithms) to compute the power, resulting in a constant time complexity irrespective of the input size.
-          - Space Complexity: O(1) - The algorithm uses a constant amount of extra space, regardless of the input values of x and n.
+          - Time Complexity: O(1) - The Math.pow() function in Java typically uses optimized algorithms (possibly involving logarithms and bit manipulation) with constant time complexity in practice, regardless of the input values.
+          - Space Complexity: O(1) - The function uses a constant amount of space, independent of the input size. It does not create any dynamically sized data structures.
           
