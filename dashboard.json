@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalProblems": 31,
-    "lastUpdated": "2025-08-26T20:43:30.041Z",
+    "lastUpdated": "2025-08-26T20:45:18.335Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -44,7 +44,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.895Z"
+      "lastUpdated": "2025-08-26T20:45:18.047Z"
     },
     {
       "id": "codechef-medium-bitwise-tuples",
@@ -60,7 +60,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.897Z"
+      "lastUpdated": "2025-08-26T20:45:18.049Z"
     },
     {
       "id": "codechef-medium-plusle-and-minun-on-array",
@@ -76,7 +76,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.898Z"
+      "lastUpdated": "2025-08-26T20:45:18.050Z"
     },
     {
       "id": "codechef-medium-reversing-directions",
@@ -92,7 +92,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.899Z"
+      "lastUpdated": "2025-08-26T20:45:18.051Z"
     },
     {
       "id": "gfg-easy-array-duplicates",
@@ -108,7 +108,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.901Z"
+      "lastUpdated": "2025-08-26T20:45:18.053Z"
     },
     {
       "id": "gfg-easy-binary-search",
@@ -124,7 +124,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.903Z"
+      "lastUpdated": "2025-08-26T20:45:18.054Z"
     },
     {
       "id": "gfg-easy-check-for-bst",
@@ -140,7 +140,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.904Z"
+      "lastUpdated": "2025-08-26T20:45:18.055Z"
     },
     {
       "id": "gfg-easy-lcm-and-gcd",
@@ -156,7 +156,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.905Z"
+      "lastUpdated": "2025-08-26T20:45:18.056Z"
     },
     {
       "id": "gfg-easy-missing-in-array",
@@ -172,7 +172,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.905Z"
+      "lastUpdated": "2025-08-26T20:45:18.057Z"
     },
     {
       "id": "gfg-easy-print-1-to-n-without-loop",
@@ -188,7 +188,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.906Z"
+      "lastUpdated": "2025-08-26T20:45:18.057Z"
     },
     {
       "id": "gfg-easy-string-rotated-by-2-places",
@@ -204,7 +204,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.907Z"
+      "lastUpdated": "2025-08-26T20:45:18.058Z"
     },
     {
       "id": "gfg-medium-bellman-ford",
@@ -220,7 +220,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.908Z"
+      "lastUpdated": "2025-08-26T20:45:18.059Z"
     },
     {
       "id": "gfg-medium-indexes-of-subarray-sum",
@@ -236,7 +236,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.909Z"
+      "lastUpdated": "2025-08-26T20:45:18.060Z"
     },
     {
       "id": "gfg-medium-undirected-graph-cycle",
@@ -252,7 +252,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.910Z"
+      "lastUpdated": "2025-08-26T20:45:18.061Z"
     },
     {
       "id": "gfg-hard-edit-distance",
@@ -268,7 +268,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.911Z"
+      "lastUpdated": "2025-08-26T20:45:18.062Z"
     },
     {
       "id": "hackerrank-medium-array-manipulation",
@@ -284,7 +284,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.923Z"
+      "lastUpdated": "2025-08-26T20:45:18.074Z"
     },
     {
       "id": "hackerrank-medium-arrays---ds",
@@ -300,7 +300,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.924Z"
+      "lastUpdated": "2025-08-26T20:45:18.075Z"
     },
     {
       "id": "hackerrank-medium-binary-search-tree---insertion",
@@ -316,7 +316,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.924Z"
+      "lastUpdated": "2025-08-26T20:45:18.076Z"
     },
     {
       "id": "hackerrank-medium-find-merge-point-of-two-lists",
@@ -327,12 +327,12 @@
       "files": {
         "code": "#include <bits/stdc++.h>\n\nusing namespace std;\n\nclass SinglyLinkedListNode {\n    public:\n        int data;\n        SinglyLinkedListNode *next;\n\n        SinglyLinkedListNode(int node_data) {\n            this->data = node_data;\n            this->next = nullptr;\n        }\n};\n\nclass SinglyLinkedList {\n    public:\n        SinglyLinkedListNode *head;\n        SinglyLinkedListNode *tail;\n\n        SinglyLinkedList() {\n            this->head = nullptr;\n            this->tail = nullptr;\n        }\n\n        void insert_node(int node_data) {\n            SinglyLinkedListNode* node = new SinglyLinkedListNode(node_data);\n\n            if (!this->head) {\n                this->head = node;\n            } else {\n                this->tail->next = node;\n            }\n\n            this->tail = node;\n        }\n};\n\nvoid print_singly_linked_list(SinglyLinkedListNode* node, string sep, ofstream& fout) {\n    while (node) {\n        fout << node->data;\n\n        node = node->next;\n\n        if (node) {\n            fout << sep;\n        }\n    }\n}\n\nvoid free_singly_linked_list(SinglyLinkedListNode* node) {\n    while (node) {\n        SinglyLinkedListNode* temp = node;\n        node = node->next;\n\n        free(temp);\n    }\n}\n\n// Complete the findMergeNode function below.\n\n/*\n * For your reference:\n *\n * SinglyLinkedListNode {\n *     int data;\n *     SinglyLinkedListNode* next;\n * };\n *\n */\nint findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {\n    // Step 1: compute lengths of both lists\n    int len1 = 0, len2 = 0;\n    SinglyLinkedListNode* curr1 = head1;\n    SinglyLinkedListNode* curr2 = head2;\n\n    while (curr1) {\n        len1++;\n        curr1 = curr1->next;\n    }\n    while (curr2) {\n        len2++;\n        curr2 = curr2->next;\n    }\n\n    // Step 2: advance the longer list by the difference in lengths\n    curr1 = head1;\n    curr2 = head2;\n    if (len1 > len2) {\n        int diff = len1 - len2;\n        while (diff--) curr1 = curr1->next;\n    } else {\n        int diff = len2 - len1;\n        while (diff--) curr2 = curr2->next;\n    }\n\n    // Step 3: move both pointers until they meet\n    while (curr1 && curr2) {\n        if (curr1 == curr2) {\n            return curr1->data; // found merge point\n        }\n        curr1 = curr1->next;\n        curr2 = curr2->next;\n    }\n\n    return -1; // should not happen given the problem guarantee\n}\n\n\nint main()\n{\n    ofstream fout(getenv(\"OUTPUT_PATH\"));\n\n    int tests;\n    cin >> tests;\n    cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n    for (int tests_itr = 0; tests_itr < tests; tests_itr++) {\n        int index;\n        cin >> index;\n        cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n        SinglyLinkedList* llist1 = new SinglyLinkedList();\n\n        int llist1_count;\n        cin >> llist1_count;\n        cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n        for (int i = 0; i < llist1_count; i++) {\n            int llist1_item;\n            cin >> llist1_item;\n            cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n            llist1->insert_node(llist1_item);\n        }\n      \n      \tSinglyLinkedList* llist2 = new SinglyLinkedList();\n\n        int llist2_count;\n        cin >> llist2_count;\n        cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n        for (int i = 0; i < llist2_count; i++) {\n            int llist2_item;\n            cin >> llist2_item;\n            cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n            llist2->insert_node(llist2_item);\n        }\n      \n      \tSinglyLinkedListNode* ptr1 = llist1->head;\n      \tSinglyLinkedListNode* ptr2 = llist2->head;\n      \n      \tfor (int i = 0; i < llist1_count; i++) {\n            if (i < index) {\n          \t\tptr1 = ptr1->next;\n            }\n        }\n      \n      \tfor (int i = 0; i < llist2_count; i++) {\n          \tif (i != llist2_count-1) {\n          \t\tptr2 = ptr2->next;\n            }\n        }\n      \n      \tptr2->next = ptr1;\n\n        int result = findMergeNode(llist1->head, llist2->head);\n\n        fout << result << \"\\n\";\n    }\n\n    fout.close();\n\n    return 0;\n}",
         "readme": "This challenge is part of a tutorial track by MyCodeSchool\n\nGiven pointers to the head nodes of  linked lists that merge together at some point, find the node where the two lists merge. The merge point is where both lists point to the same node, i.e. they reference the same memory location. It is guaranteed that the two head nodes will be different, and neither will be NULL. If the lists share a common node, return that node's  value.\n\nNote: After the merge point, both lists will share the same node pointers.\n\nExample\n\nIn the diagram below, the two lists converge at Node x:\n\n[List #1] a--->b--->c\n                     \\\n                      x--->y--->z--->NULL\n                     /\n     [List #2] p--->q\n\n\nFunction Description\n\nComplete the findMergeNode function in the editor below.\n\nfindMergeNode has the following parameters:\n\nSinglyLinkedListNode pointer head1: a reference to the head of the first list\nSinglyLinkedListNode pointer head2: a reference to the head of the second list\n\nReturns\n\nint: the  value of the node where the lists merge\n\nInput Format\n\nDo not read any input from stdin/console.\n\nThe first line contains an integer , the number of test cases.\n\nEach of the test cases is in the following format:\nThe first line contains an integer, , the node number where the merge will occur.\nThe next line contains an integer,  that is the number of nodes in the first list.\nEach of the following  lines contains a  value for a node. The next line contains an integer,  that is the number of nodes in the second list.\nEach of the following  lines contains a  value for a node.\n\nConstraints\n\nThe lists will merge.\n.\n .\n\nSample Input\n\nThe diagrams below are graphical representations of the lists that input nodes  and  are connected to.\n\nTest Case 0\n\n 1\n  \\\n   2--->3--->NULL\n  /\n 1\n\n\nTest Case 1\n\n1--->2\n      \\\n       3--->Null\n      /\n     1\n\n\nSample Output\n\n2\n3\n\n\nExplanation\n\nTest Case 0: As demonstrated in the diagram above, the merge node's data field contains the integer .\nTest Case 1: As demonstrated in the diagram above, the merge node's data field contains the integer .",
-        "notes": ""
+        "notes": "Find Merge Point of Two Lists\n\n          - Summary: The code uses singly linked lists to represent two lists. The `findMergeNode` function first calculates the lengths of both lists. Then, it advances the pointer of the longer list to match the length of the shorter list. Finally, it iterates through both lists simultaneously until it finds a common node, returning the data of that node. If no merge point is found, it returns -1.\n\n          - Time Complexity: O(m+n), where m and n are the lengths of the two linked lists. This is because the algorithm iterates through each list once to calculate lengths and then iterates through portions of both lists to find the merge point.\n          - Space Complexity: O(1). The algorithm uses a constant amount of extra space to store pointers and length variables, regardless of the input size."
       },
       "hasCode": true,
       "hasReadme": true,
-      "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.925Z"
+      "hasNotes": true,
+      "lastUpdated": "2025-08-26T20:45:18.077Z"
     },
     {
       "id": "hackerrank-medium-inserting-a-node-into-a-sorted-doubly-linked-list",
@@ -348,7 +348,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.926Z"
+      "lastUpdated": "2025-08-26T20:45:18.077Z"
     },
     {
       "id": "hackerrank-medium-left-rotation",
@@ -364,7 +364,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.927Z"
+      "lastUpdated": "2025-08-26T20:45:18.078Z"
     },
     {
       "id": "hackerrank-medium-reverse-a-linked-list",
@@ -380,7 +380,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.927Z"
+      "lastUpdated": "2025-08-26T20:45:18.079Z"
     },
     {
       "id": "leetcode-easy-remove-duplicates-from-sorted-list",
@@ -396,7 +396,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.912Z"
+      "lastUpdated": "2025-08-26T20:45:18.063Z"
     },
     {
       "id": "leetcode-easy-two-sum",
@@ -412,7 +412,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.914Z"
+      "lastUpdated": "2025-08-26T20:45:18.065Z"
     },
     {
       "id": "leetcode-easy-valid-anagram",
@@ -428,7 +428,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.914Z"
+      "lastUpdated": "2025-08-26T20:45:18.066Z"
     },
     {
       "id": "leetcode-medium-combination-sum-ii",
@@ -444,7 +444,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.916Z"
+      "lastUpdated": "2025-08-26T20:45:18.067Z"
     },
     {
       "id": "leetcode-medium-find-first-and-last-position-of-element-in-sorted-array",
@@ -460,7 +460,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-26T20:43:29.917Z"
+      "lastUpdated": "2025-08-26T20:45:18.069Z"
     },
     {
       "id": "leetcode-medium-group-anagrams",
@@ -476,7 +476,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.918Z"
+      "lastUpdated": "2025-08-26T20:45:18.070Z"
     },
     {
       "id": "leetcode-medium-longest-palindromic-substring",
@@ -492,7 +492,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.919Z"
+      "lastUpdated": "2025-08-26T20:45:18.071Z"
     },
     {
       "id": "leetcode-medium-pow-x--n-",
@@ -508,7 +508,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.920Z"
+      "lastUpdated": "2025-08-26T20:45:18.071Z"
     },
     {
       "id": "leetcode-hard-n-queens-ii",
@@ -524,7 +524,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-26T20:43:29.921Z"
+      "lastUpdated": "2025-08-26T20:45:18.073Z"
     }
   ]
 }
