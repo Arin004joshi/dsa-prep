@@ -1,8 +1,8 @@
 
           LCM And GCD
 
-          - Summary: The code calculates the greatest common divisor (GCD) and least common multiple (LCM) of two integers. It uses Euclid's algorithm to find the GCD iteratively, then calculates the LCM using the formula: LCM(a, b) = (a * b) / GCD(a, b).  A vector is used to store and return the calculated LCM and GCD. The GCD function uses a while loop and temporary variables for iterative calculations, while the LCMAndGCD function utilizes the GCD function's result for LCM calculation.
+          - Summary: The code uses a vector to store the calculated least common multiple (LCM) and greatest common divisor (GCD) of two input integers.  It first calculates the GCD using Euclid's algorithm, iteratively reducing the numbers until the remainder is zero. Then, it calculates the LCM using the formula (a * b) / GCD(a, b), ensuring to use long long to prevent integer overflow. Finally, it stores the LCM and GCD in a vector and returns it.
 
-          - Time Complexity: O(log(min(a, b))) because the GCD calculation using Euclid's algorithm has a logarithmic time complexity with respect to the minimum of the two input numbers.
-          - Space Complexity: O(1). The space used is constant as it only involves a few integer variables and does not scale with the input size.  The vector used for returning the results has a fixed size of 2.
+          - Time Complexity: O(log(min(a, b))) because the GCD function using Euclid's algorithm has a time complexity of O(log(min(a, b))). The remaining operations are constant time.
+          - Space Complexity: O(1) as the algorithm uses a fixed amount of space irrespective of the input size.  The vector used to store the result has a constant size of 2.
           
