@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalProblems": 31,
-    "lastUpdated": "2025-08-28T09:51:59.468Z",
+    "lastUpdated": "2025-08-28T09:52:38.876Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -44,7 +44,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.283Z"
+      "lastUpdated": "2025-08-28T09:52:38.826Z"
     },
     {
       "id": "codechef-medium-bitwise-tuples",
@@ -60,7 +60,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.285Z"
+      "lastUpdated": "2025-08-28T09:52:38.828Z"
     },
     {
       "id": "codechef-medium-plusle-and-minun-on-array",
@@ -76,7 +76,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.286Z"
+      "lastUpdated": "2025-08-28T09:52:38.829Z"
     },
     {
       "id": "codechef-medium-reversing-directions",
@@ -92,7 +92,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.287Z"
+      "lastUpdated": "2025-08-28T09:52:38.830Z"
     },
     {
       "id": "gfg-easy-array-duplicates",
@@ -108,7 +108,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.290Z"
+      "lastUpdated": "2025-08-28T09:52:38.833Z"
     },
     {
       "id": "gfg-easy-binary-search",
@@ -119,12 +119,12 @@
       "files": {
         "code": "class Solution {\r\n  public:\r\n    int binarysearch(vector<int> &arr, int k) {\r\n        int left = 0, right = arr.size() - 1;\r\n        int ans = -1;   // store index of k if found\r\n\r\n        while (left <= right) {\r\n            int mid = left + (right - left) / 2;\r\n\r\n            if (arr[mid] == k) {\r\n                ans = mid;       // potential answer\r\n                right = mid - 1; // keep looking left for smaller index\r\n            } \r\n            else if (arr[mid] < k) {\r\n                left = mid + 1;\r\n            } \r\n            else {\r\n                right = mid - 1;\r\n            }\r\n        }\r\n\r\n        return ans;\r\n    }\r\n};",
         "readme": "Arrays,Searching,Divide and_Conquer,Data_Structures,Algorithms\n\nBinary Search\nDifficulty: EasyAccuracy: 44.32%Submissions: 632K+Points: 2Average Time: 20m\n\nGiven a sorted array arr[] and an integer k, find the position(0-based indexing) at which k is present in the array using binary search. If k doesn't exist in arr[] return -1. \n\nNote: If multiple occurrences are there, please return the smallest index.\n\nExamples:\n\nInput: arr[] = [1, 2, 3, 4, 5], k = 4\nOutput: 3\nExplanation: 4 appears at index 3.\nInput: arr[] = [11, 22, 33, 44, 55], k = 445\nOutput: -1\nExplanation: 445 is not present.\n\nInput: arr[] = [1, 1, 1, 1, 2], k = 1\nOutput: 0\nExplanation: 1 appears at index 0.\n\nConstraints:\n1 ≤ arr.size() ≤ 105\n1 ≤ arr[i] ≤ 106\n1 ≤ k ≤ 106\n\nTry more examples\nExpected Complexities\nCompany Tags\nTopic Tags\nRelated Interview Experiences\nRelated Articles",
-        "notes": "# Binary Search\n\n          **Summary:** This code implements a solution using C++ (12). It processes data through iterative operations and appears to solve the given problem efficiently.\n\n          - Time Complexity: O(n)\n          - Space Complexity: O(1)"
+        "notes": "Binary Search\n\n          - Summary: This code implements a binary search algorithm using a vector (dynamic array). It initializes left and right pointers to the start and end of the sorted vector, respectively.  The algorithm iteratively narrows the search space by comparing the middle element with the target value (k), adjusting the left or right pointer accordingly.  It returns the index of the target value if found; otherwise, it returns -1.\n\n          - Time Complexity: O(log n) because the search space is halved in each iteration of the while loop.\n          - Space Complexity: O(1) because it uses a constant amount of extra space regardless of the input size."
       },
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.292Z"
+      "lastUpdated": "2025-08-28T09:52:38.834Z"
     },
     {
       "id": "gfg-easy-check-for-bst",
@@ -140,7 +140,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.292Z"
+      "lastUpdated": "2025-08-28T09:52:38.835Z"
     },
     {
       "id": "gfg-easy-lcm-and-gcd",
@@ -156,7 +156,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.293Z"
+      "lastUpdated": "2025-08-28T09:52:38.836Z"
     },
     {
       "id": "gfg-easy-missing-in-array",
@@ -172,7 +172,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.294Z"
+      "lastUpdated": "2025-08-28T09:52:38.837Z"
     },
     {
       "id": "gfg-easy-print-1-to-n-without-loop",
@@ -188,7 +188,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.295Z"
+      "lastUpdated": "2025-08-28T09:52:38.838Z"
     },
     {
       "id": "gfg-easy-string-rotated-by-2-places",
@@ -204,7 +204,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.296Z"
+      "lastUpdated": "2025-08-28T09:52:38.839Z"
     },
     {
       "id": "gfg-medium-bellman-ford",
@@ -220,7 +220,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.297Z"
+      "lastUpdated": "2025-08-28T09:52:38.840Z"
     },
     {
       "id": "gfg-medium-indexes-of-subarray-sum",
@@ -236,7 +236,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.298Z"
+      "lastUpdated": "2025-08-28T09:52:38.841Z"
     },
     {
       "id": "gfg-medium-undirected-graph-cycle",
@@ -252,7 +252,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.299Z"
+      "lastUpdated": "2025-08-28T09:52:38.842Z"
     },
     {
       "id": "gfg-hard-edit-distance",
@@ -268,7 +268,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.300Z"
+      "lastUpdated": "2025-08-28T09:52:38.844Z"
     },
     {
       "id": "hackerrank-medium-array-manipulation",
@@ -284,7 +284,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.313Z"
+      "lastUpdated": "2025-08-28T09:52:38.856Z"
     },
     {
       "id": "hackerrank-medium-arrays---ds",
@@ -300,7 +300,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.314Z"
+      "lastUpdated": "2025-08-28T09:52:38.857Z"
     },
     {
       "id": "hackerrank-medium-binary-search-tree---insertion",
@@ -316,7 +316,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.315Z"
+      "lastUpdated": "2025-08-28T09:52:38.858Z"
     },
     {
       "id": "hackerrank-medium-find-merge-point-of-two-lists",
@@ -332,7 +332,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.316Z"
+      "lastUpdated": "2025-08-28T09:52:38.859Z"
     },
     {
       "id": "hackerrank-medium-inserting-a-node-into-a-sorted-doubly-linked-list",
@@ -348,7 +348,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.317Z"
+      "lastUpdated": "2025-08-28T09:52:38.859Z"
     },
     {
       "id": "hackerrank-medium-left-rotation",
@@ -364,7 +364,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.318Z"
+      "lastUpdated": "2025-08-28T09:52:38.860Z"
     },
     {
       "id": "hackerrank-medium-reverse-a-linked-list",
@@ -380,7 +380,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.318Z"
+      "lastUpdated": "2025-08-28T09:52:38.861Z"
     },
     {
       "id": "leetcode-easy-remove-duplicates-from-sorted-list",
@@ -396,7 +396,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.302Z"
+      "lastUpdated": "2025-08-28T09:52:38.845Z"
     },
     {
       "id": "leetcode-easy-two-sum",
@@ -412,7 +412,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.303Z"
+      "lastUpdated": "2025-08-28T09:52:38.846Z"
     },
     {
       "id": "leetcode-easy-valid-anagram",
@@ -428,7 +428,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.304Z"
+      "lastUpdated": "2025-08-28T09:52:38.847Z"
     },
     {
       "id": "leetcode-medium-combination-sum-ii",
@@ -444,7 +444,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T09:51:59.306Z"
+      "lastUpdated": "2025-08-28T09:52:38.849Z"
     },
     {
       "id": "leetcode-medium-find-first-and-last-position-of-element-in-sorted-array",
@@ -460,7 +460,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.307Z"
+      "lastUpdated": "2025-08-28T09:52:38.851Z"
     },
     {
       "id": "leetcode-medium-group-anagrams",
@@ -476,7 +476,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.308Z"
+      "lastUpdated": "2025-08-28T09:52:38.852Z"
     },
     {
       "id": "leetcode-medium-longest-palindromic-substring",
@@ -492,7 +492,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.309Z"
+      "lastUpdated": "2025-08-28T09:52:38.853Z"
     },
     {
       "id": "leetcode-medium-pow-x--n-",
@@ -508,7 +508,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.310Z"
+      "lastUpdated": "2025-08-28T09:52:38.854Z"
     },
     {
       "id": "leetcode-hard-n-queens-ii",
@@ -524,7 +524,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T09:51:59.312Z"
+      "lastUpdated": "2025-08-28T09:52:38.855Z"
     }
   ]
 }
