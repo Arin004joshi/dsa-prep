@@ -1,7 +1,7 @@
 Arrays,Searching,Divide and_Conquer,Data_Structures,Algorithms
 
 Binary Search
-Difficulty: EasyAccuracy: 44.32%Submissions: 632K+Points: 2Average Time: 20m
+Difficulty: EasyAccuracy: 44.32%Submissions: 633K+Points: 2Average Time: 20m
 
 Given a sorted array arr[] and an integer k, find the position(0-based indexing) at which k is present in the array using binary search. If k doesn't exist in arr[] return -1. 
 
