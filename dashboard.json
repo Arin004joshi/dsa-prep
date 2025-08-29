@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalProblems": 32,
-    "lastUpdated": "2025-08-28T19:26:55.438Z",
+    "lastUpdated": "2025-08-29T10:01:11.374Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -44,7 +44,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.276Z"
+      "lastUpdated": "2025-08-29T10:01:11.180Z"
     },
     {
       "id": "codechef-medium-bitwise-tuples",
@@ -60,7 +60,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.277Z"
+      "lastUpdated": "2025-08-29T10:01:11.182Z"
     },
     {
       "id": "codechef-medium-plusle-and-minun-on-array",
@@ -76,7 +76,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.279Z"
+      "lastUpdated": "2025-08-29T10:01:11.183Z"
     },
     {
       "id": "codechef-medium-reversing-directions",
@@ -92,7 +92,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.279Z"
+      "lastUpdated": "2025-08-29T10:01:11.184Z"
     },
     {
       "id": "gfg-easy-array-duplicates",
@@ -108,7 +108,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.282Z"
+      "lastUpdated": "2025-08-29T10:01:11.187Z"
     },
     {
       "id": "gfg-easy-binary-search",
@@ -124,7 +124,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.284Z"
+      "lastUpdated": "2025-08-29T10:01:11.188Z"
     },
     {
       "id": "gfg-easy-check-for-bst",
@@ -140,7 +140,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.284Z"
+      "lastUpdated": "2025-08-29T10:01:11.189Z"
     },
     {
       "id": "gfg-easy-lcm-and-gcd",
@@ -156,7 +156,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.285Z"
+      "lastUpdated": "2025-08-29T10:01:11.190Z"
     },
     {
       "id": "gfg-easy-missing-in-array",
@@ -172,7 +172,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.286Z"
+      "lastUpdated": "2025-08-29T10:01:11.191Z"
     },
     {
       "id": "gfg-easy-print-1-to-n-without-loop",
@@ -188,7 +188,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.287Z"
+      "lastUpdated": "2025-08-29T10:01:11.191Z"
     },
     {
       "id": "gfg-easy-string-rotated-by-2-places",
@@ -204,7 +204,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.288Z"
+      "lastUpdated": "2025-08-29T10:01:11.192Z"
     },
     {
       "id": "gfg-medium-bellman-ford",
@@ -220,7 +220,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.289Z"
+      "lastUpdated": "2025-08-29T10:01:11.194Z"
     },
     {
       "id": "gfg-medium-indexes-of-subarray-sum",
@@ -236,7 +236,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.290Z"
+      "lastUpdated": "2025-08-29T10:01:11.194Z"
     },
     {
       "id": "gfg-medium-undirected-graph-cycle",
@@ -252,7 +252,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.291Z"
+      "lastUpdated": "2025-08-29T10:01:11.195Z"
     },
     {
       "id": "gfg-hard-edit-distance",
@@ -268,7 +268,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.293Z"
+      "lastUpdated": "2025-08-29T10:01:11.197Z"
     },
     {
       "id": "hackerrank-medium-array-manipulation",
@@ -284,7 +284,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.305Z"
+      "lastUpdated": "2025-08-29T10:01:11.208Z"
     },
     {
       "id": "hackerrank-medium-arrays---ds",
@@ -294,13 +294,13 @@
       "language": "cpp",
       "files": {
         "code": "#include <bits/stdc++.h>\n\nusing namespace std;\n\nstring ltrim(const string &);\nstring rtrim(const string &);\nvector<string> split(const string &);\n\n/*\n * Complete the 'reverseArray' function below.\n *\n * The function is expected to return an INTEGER_ARRAY.\n * The function accepts INTEGER_ARRAY a as parameter.\n */\n\nvector<int> reverseArray(vector<int> a) {\n    reverse(a.begin(), a.end());  // use STL reverse\n    return a;\n}\n\nint main()\n{\n    ofstream fout(getenv(\"OUTPUT_PATH\"));\n\n    string arr_count_temp;\n    getline(cin, arr_count_temp);\n\n    int arr_count = stoi(ltrim(rtrim(arr_count_temp)));\n\n    string arr_temp_temp;\n    getline(cin, arr_temp_temp);\n\n    vector<string> arr_temp = split(rtrim(arr_temp_temp));\n\n    vector<int> arr(arr_count);\n\n    for (int i = 0; i < arr_count; i++) {\n        int arr_item = stoi(arr_temp[i]);\n\n        arr[i] = arr_item;\n    }\n\n    vector<int> res = reverseArray(arr);\n\n    for (size_t i = 0; i < res.size(); i++) {\n        fout << res[i];\n\n        if (i != res.size() - 1) {\n            fout << \" \";\n        }\n    }\n\n    fout << \"\\n\";\n\n    fout.close();\n\n    return 0;\n}\n\nstring ltrim(const string &str) {\n    string s(str);\n\n    s.erase(\n        s.begin(),\n        find_if(s.begin(), s.end(), not1(ptr_fun<int, int>(isspace)))\n    );\n\n    return s;\n}\n\nstring rtrim(const string &str) {\n    string s(str);\n\n    s.erase(\n        find_if(s.rbegin(), s.rend(), not1(ptr_fun<int, int>(isspace))).base(),\n        s.end()\n    );\n\n    return s;\n}\n\nvector<string> split(const string &str) {\n    vector<string> tokens;\n\n    string::size_type start = 0;\n    string::size_type end = 0;\n\n    while ((end = str.find(\" \", start)) != string::npos) {\n        tokens.push_back(str.substr(start, end - start));\n\n        start = end + 1;\n    }\n\n    tokens.push_back(str.substr(start));\n\n    return tokens;\n}",
-        "readme": "An array is a data structure that stores elements of the same type in a contiguous block of memory. In an array, , of size , each memory location has some unique index,  (where ), that can be referenced as  or .\n\nYour task is to reverse an array of integers.\n\nNote: If you've already solved our C++ domain's Arrays Introduction challenge, you may want to skip this.\n\nExample\n\n\nReturn .\n\nFunction Description\n\nComplete the function  with the following parameter(s):\n\n: the array to reverse\n\nReturns\n\n: the reversed array\n\nInput Format\n\nThe first line contains an integer, , the number of integers in .\nThe second line contains  space-separated integers that make up .\n\nConstraints",
-        "notes": "# Arrays - DS\n\n          **Summary:** This code implements a solution using C++11. It processes data through iterative operations and appears to solve the given problem efficiently.\n\n          - Time Complexity: O(n�)\n          - Space Complexity: O(1)"
+        "readme": "null\n\nAn array is a data structure that stores elements of the same type in a contiguous block of memory. In an array, , of size , each memory location has some unique index,  (where ), that can be referenced as  or .\n\nYour task is to reverse an array of integers.\n\nNote: If you've already solved our C++ domain's Arrays Introduction challenge, you may want to skip this.\n\nExample\n\n\nReturn .\n\nFunction Description\n\nComplete the function  with the following parameter(s):\n\n: the array to reverse\n\nReturns\n\n: the reversed array\n\nInput Format\n\nThe first line contains an integer, , the number of integers in .\nThe second line contains  space-separated integers that make up .\n\nConstraints",
+        "notes": "Array Reversal\n\n          - Summary: The code utilizes vectors (dynamic arrays) to store and manipulate integer data.  It first reads an integer array from standard input, then uses the STL `reverse` function to reverse the array's elements in-place. Finally, it writes the reversed array to standard output, handling spacing appropriately.\n\n          - Time Complexity: O(n), where n is the length of the input array. This is because the `reverse` function operates on each element of the array once, and the input and output operations take linear time.\n          - Space Complexity: O(n), where n is the length of the input array. This is due to the storage of the input and output vectors. The auxiliary space used by the `reverse` function is constant."
       },
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.305Z"
+      "lastUpdated": "2025-08-29T10:01:11.209Z"
     },
     {
       "id": "hackerrank-medium-binary-search-tree---insertion",
@@ -316,7 +316,7 @@
       "hasCode": true,
       "hasReadme": false,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.306Z"
+      "lastUpdated": "2025-08-29T10:01:11.210Z"
     },
     {
       "id": "hackerrank-medium-find-merge-point-of-two-lists",
@@ -332,7 +332,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.307Z"
+      "lastUpdated": "2025-08-29T10:01:11.211Z"
     },
     {
       "id": "hackerrank-medium-inserting-a-node-into-a-sorted-doubly-linked-list",
@@ -348,7 +348,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.308Z"
+      "lastUpdated": "2025-08-29T10:01:11.211Z"
     },
     {
       "id": "hackerrank-medium-left-rotation",
@@ -364,7 +364,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.308Z"
+      "lastUpdated": "2025-08-29T10:01:11.212Z"
     },
     {
       "id": "hackerrank-medium-print-the-elements-of-a-linked-list",
@@ -380,7 +380,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.309Z"
+      "lastUpdated": "2025-08-29T10:01:11.213Z"
     },
     {
       "id": "hackerrank-medium-reverse-a-linked-list",
@@ -396,7 +396,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.310Z"
+      "lastUpdated": "2025-08-29T10:01:11.214Z"
     },
     {
       "id": "leetcode-easy-remove-duplicates-from-sorted-list",
@@ -412,7 +412,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.294Z"
+      "lastUpdated": "2025-08-29T10:01:11.198Z"
     },
     {
       "id": "leetcode-easy-two-sum",
@@ -428,7 +428,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.296Z"
+      "lastUpdated": "2025-08-29T10:01:11.199Z"
     },
     {
       "id": "leetcode-easy-valid-anagram",
@@ -444,7 +444,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.296Z"
+      "lastUpdated": "2025-08-29T10:01:11.200Z"
     },
     {
       "id": "leetcode-medium-combination-sum-ii",
@@ -460,7 +460,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-28T19:26:55.298Z"
+      "lastUpdated": "2025-08-29T10:01:11.202Z"
     },
     {
       "id": "leetcode-medium-find-first-and-last-position-of-element-in-sorted-array",
@@ -476,7 +476,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.299Z"
+      "lastUpdated": "2025-08-29T10:01:11.203Z"
     },
     {
       "id": "leetcode-medium-group-anagrams",
@@ -492,7 +492,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.300Z"
+      "lastUpdated": "2025-08-29T10:01:11.204Z"
     },
     {
       "id": "leetcode-medium-longest-palindromic-substring",
@@ -508,7 +508,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.301Z"
+      "lastUpdated": "2025-08-29T10:01:11.205Z"
     },
     {
       "id": "leetcode-medium-pow-x--n-",
@@ -524,7 +524,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.302Z"
+      "lastUpdated": "2025-08-29T10:01:11.206Z"
     },
     {
       "id": "leetcode-hard-n-queens-ii",
@@ -540,7 +540,7 @@
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-28T19:26:55.303Z"
+      "lastUpdated": "2025-08-29T10:01:11.207Z"
     }
   ]
 }
