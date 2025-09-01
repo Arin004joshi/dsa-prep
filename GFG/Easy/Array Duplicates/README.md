@@ -1,7 +1,7 @@
 Arrays,Data_Structures
 
 Array Duplicates
-Difficulty: EasyAccuracy: 18.95%Submissions: 853K+Points: 2Average Time: 20m
+Difficulty: EasyAccuracy: 18.95%Submissions: 854K+Points: 2Average Time: 20m
 
 Given an array arr[] of size n, containing elements from the range 1 to n, and each element appears at most twice, return an array of all the integers that appears twice.
 
@@ -26,3 +26,5 @@ Company Tags
 Topic Tags
 Related Interview Experiences
 Related Articles
+Report An Issue
+If you are facing any issue on this page. Please let us know.
