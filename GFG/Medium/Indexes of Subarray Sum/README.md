@@ -1,3 +1,5 @@
+Algorithms,Arrays,Data_Structuresprefix-sum,Searchingsliding-window
+
 Indexes of Subarray Sum
 Difficulty: MediumAccuracy: 16.5%Submissions: 1.8MPoints: 4Average Time: 20m
 
