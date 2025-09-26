@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalProblems": 35,
-    "lastUpdated": "2025-09-26T20:39:52.432Z",
+    "lastUpdated": "2025-09-26T21:02:59.316Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -247,12 +247,12 @@
       "files": {
         "code": "class Solution {\r\n  public:\r\n    vector<int> subarraySum(vector<int> &arr, int target) {\r\n        int n = arr.size();\r\n        int start = 0;\r\n        long long sum = 0; // use long long to avoid overflow\r\n\r\n        for (int end = 0; end < n; end++) {\r\n            sum += arr[end];\r\n\r\n            // shrink the window if sum exceeds target\r\n            while (sum > target && start <= end) {\r\n                sum -= arr[start];\r\n                start++;\r\n            }\r\n\r\n            // check if sum matches\r\n            if (sum == target) {\r\n                return {start + 1, end + 1}; // 1-based indices\r\n            }\r\n        }\r\n        return {-1}; // if no subarray found\r\n    }\r\n};",
         "readme": "Algorithms,Arrays,Data_Structuresprefix-sum,Searchingsliding-window\n\nIndexes of Subarray Sum\nDifficulty: MediumAccuracy: 16.5%Submissions: 1.8MPoints: 4Average Time: 20m\n\nGiven an array arr[] containing only non-negative integers, your task is to find a continuous subarray (a contiguous sequence of elements) whose sum equals a specified value target. You need to return the 1-based indices of the leftmost and rightmost elements of this subarray. You need to find the first subarray whose sum is equal to the target.\n\nNote: If no such array is possible then, return [-1].\n\nExamples:\n\nInput: arr[] = [1, 2, 3, 7, 5], target = 12\nOutput: [2, 4]\nExplanation: The sum of elements from 2nd to 4th position is 12.\nInput: arr[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], target = 15\nOutput: [1, 5]\nExplanation: The sum of elements from 1st to 5th position is 15.\n\nInput: arr[] = [5, 3, 4], target = 2\nOutput: [-1]\nExplanation: There is no subarray with sum 2.\n\nConstraints:\n1 <= arr.size()<= 106\n0 <= arr[i] <= 103\n0 <= target <= 109\n\nTry more examples\nExpected Complexities\nCompany Tags\nTopic Tags\nRelated Interview Experiences\nRelated Articles",
-        "notes": "Indexes of Subarray Sum\n\n          - Summary: The code uses a `vector` (dynamic array) to store the input array and return the result. It employs a sliding window approach using two pointers, `start` and `end`, to iterate through subarrays.  The `sum` variable keeps track of the current subarray's sum. The algorithm iterates, expanding the window (increasing `end`) and shrinking it (increasing `start`) as needed to maintain a sum less than or equal to the target.  If a subarray with the target sum is found, its 1-based start and end indices are returned; otherwise, -1 is returned.\n\n          - Time Complexity: O(n) because each element in the input array `arr` is visited and processed at most twice: once when the `end` pointer moves over it, and possibly once when the `start` pointer moves over it while shrinking the window.\n          - Space Complexity: O(1). The algorithm uses a constant amount of extra space to store variables like `n`, `start`, `sum`, and the result vector.  The space used does not scale with the input array size."
+        "notes": "Sliding Window Subarray Sum (Positive Integers Assumption)\n\n          - Summary: This solution uses the Two-Pointer/Sliding Window technique, employing two integer pointers ('start' and 'end') and a long long variable 'sum' to track the current window's sum. The 'end' pointer expands the window by adding elements, and if the 'sum' exceeds 'target', the 'start' pointer contracts the window by subtracting elements until the sum is manageable or the window collapses. If 'sum' equals 'target', it immediately returns the 1-based indices of the window; otherwise, it returns {-1} after checking all possibilities.\n\n          - Time Complexity: O(n) because both the 'start' and 'end' pointers traverse the array at most once, resulting in linear time complexity.\n          - Space Complexity: O(1) because the solution only uses a fixed number of extra variables ('n', 'start', 'end', 'sum') regardless of the input size."
       },
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-09-18T11:23:21.000Z"
+      "lastUpdated": "2025-09-26T21:02:46.000Z"
     },
     {
       "id": "gfg-medium-undirected-graph-cycle",
