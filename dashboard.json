@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalProblems": 35,
-    "lastUpdated": "2025-09-27T08:49:47.662Z",
+    "lastUpdated": "2025-09-27T08:50:23.122Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -102,13 +102,13 @@
       "language": "cpp",
       "files": {
         "code": "class Solution {\r\n  public:\r\n    vector<int> findDuplicates(vector<int>& arr) {\r\n        vector<int> ans;\r\n        int n = arr.size();\r\n\r\n        for (int i = 0; i < n; i++) {\r\n            int x = abs(arr[i]);\r\n            if (arr[x - 1] < 0) {\r\n                ans.push_back(x);\r\n            } else {\r\n                arr[x - 1] = -arr[x - 1];\r\n            }\r\n        }\r\n        return ans;\r\n    }\r\n};",
-        "readme": "Arrays,Data_Structures\n\nArray Duplicates\nDifficulty: EasyAccuracy: 18.95%Submissions: 854K+Points: 2Average Time: 20m\n\nGiven an array arr[] of size n, containing elements from the range 1 to n, and each element appears at most twice, return an array of all the integers that appears twice.\n\nNote: You can return the elements in any order but the driver code will print them in sorted order.\n\nExamples:\n\nInput: arr[] = [2, 3, 1, 2, 3]\nOutput: [2, 3] \nExplanation: 2 and 3 occur more than once in the given array.\nInput: arr[] = [3, 1, 2] \nOutput: []\nExplanation: There is no repeating element in the array, so the output is empty.\n\nConstraints:\n1 ≤ n ≤ 106\n1 ≤ arr[i] ≤ n\n\nTry more examples\nExpected Complexities\nCompany Tags\nTopic Tags\nRelated Interview Experiences\nRelated Articles\nReport An Issue\nIf you are facing any issue on this page. Please let us know.",
+        "readme": "Arrays,Data_Structures\n\nArray Duplicates\nDifficulty: EasyAccuracy: 18.95%Submissions: 861K+Points: 2Average Time: 20m\n\nGiven an array arr[] of size n, containing elements from the range 1 to n, and each element appears at most twice, return an array of all the integers that appears twice.\n\nNote: You can return the elements in any order but the driver code will print them in sorted order.\n\nExamples:\n\nInput: arr[] = [2, 3, 1, 2, 3]\nOutput: [2, 3] \nExplanation: 2 and 3 occur more than once in the given array.\nInput: arr[] = [3, 1, 2] \nOutput: []\nExplanation: There is no repeating element in the array, so the output is empty.\n\nConstraints:\n1 ≤ n ≤ 106\n1 ≤ arr[i] ≤ n\n\nTry more examples\nExpected Complexities\nCompany Tags\nTopic Tags\nRelated Interview Experiences\nRelated Articles",
         "notes": "Array Duplicates\n\n          - Summary: The code utilizes a single array to store the input numbers and identify duplicates. It iterates through the array; for each number, it checks if the corresponding index (number - 1) has a negative value. If negative, the number is already encountered and added to the result vector; otherwise, it negates the value at that index to mark the number as seen. The algorithm leverages the array itself to track seen numbers, avoiding extra space for a hash map.\n\n          - Time Complexity: O(n) because the code iterates through the input array once. Each operation inside the loop takes constant time.\n          - Space Complexity: O(1) in addition to output.  While the input array is modified, the extra space used is constant and does not depend on the input size. The space complexity is dominated by the size of the output vector, which in the worst case can be O(n), if all numbers are duplicates. In reality, though, the output will always be less than n"
       },
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-09-01T21:21:46.000Z"
+      "lastUpdated": "2025-09-27T08:50:12.000Z"
     },
     {
       "id": "gfg-easy-binary-search",
