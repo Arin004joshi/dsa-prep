@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "totalProblems": 37,
-    "lastUpdated": "2025-09-27T09:00:39.197Z",
+    "totalProblems": 38,
+    "lastUpdated": "2025-09-27T09:05:30.033Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -22,9 +22,9 @@
         "Hard": 1
       },
       "Hackerrank": {
-        "total": 10,
+        "total": 11,
         "Easy": 0,
-        "Medium": 10,
+        "Medium": 11,
         "Hard": 0
       }
     }
@@ -381,6 +381,22 @@
       "hasReadme": true,
       "hasNotes": true,
       "lastUpdated": "2025-08-26T20:50:31.000Z"
+    },
+    {
+      "id": "hackerrank-medium-get-node-value",
+      "platform": "Hackerrank",
+      "difficulty": "Medium",
+      "problemName": "Get Node Value",
+      "language": "cpp",
+      "files": {
+        "code": "#include <bits/stdc++.h>\n\nusing namespace std;\n\nclass SinglyLinkedListNode {\n    public:\n        int data;\n        SinglyLinkedListNode *next;\n\n        SinglyLinkedListNode(int node_data) {\n            this->data = node_data;\n            this->next = nullptr;\n        }\n};\n\nclass SinglyLinkedList {\n    public:\n        SinglyLinkedListNode *head;\n        SinglyLinkedListNode *tail;\n\n        SinglyLinkedList() {\n            this->head = nullptr;\n            this->tail = nullptr;\n        }\n\n        void insert_node(int node_data) {\n            SinglyLinkedListNode* node = new SinglyLinkedListNode(node_data);\n\n            if (!this->head) {\n                this->head = node;\n            } else {\n                this->tail->next = node;\n            }\n\n            this->tail = node;\n        }\n};\n\nvoid print_singly_linked_list(SinglyLinkedListNode* node, string sep, ofstream& fout) {\n    while (node) {\n        fout << node->data;\n\n        node = node->next;\n\n        if (node) {\n            fout << sep;\n        }\n    }\n}\n\nvoid free_singly_linked_list(SinglyLinkedListNode* node) {\n    while (node) {\n        SinglyLinkedListNode* temp = node;\n        node = node->next;\n\n        free(temp);\n    }\n}\n\n/*\n * Complete the 'getNode' function below.\n *\n * The function is expected to return an INTEGER.\n * The function accepts following parameters:\n *  1. INTEGER_SINGLY_LINKED_LIST llist\n *  2. INTEGER positionFromTail\n */\n\n/*\n * For your reference:\n *\n * SinglyLinkedListNode {\n *     int data;\n *     SinglyLinkedListNode* next;\n * };\n *\n */\n\n/*\n * For your reference:\n *\n * SinglyLinkedListNode {\n * int data;\n * SinglyLinkedListNode* next;\n * };\n *\n */\n\nint getNode(SinglyLinkedListNode* llist, int positionFromTail) {\n    // p1 will trail p2 and point to the result node.\n    SinglyLinkedListNode* p1 = llist;\n    // p2 will lead p1 and traverse the entire list.\n    SinglyLinkedListNode* p2 = llist;\n    \n    // 1. Advance p2 by 'positionFromTail' steps.\n    // This creates the required gap between p1 and p2.\n    for (int i = 0; i < positionFromTail; i++) {\n        // Assuming the list is long enough based on problem constraints.\n        // If not, robust code would check for p2 == nullptr here.\n        p2 = p2->next;\n    }\n    \n    // 2. Move both p1 and p2 forward simultaneously until p2 hits the end.\n    // When p2->next is nullptr, p2 is the tail (position 0).\n    while (p2->next != nullptr) {\n        p1 = p1->next;\n        p2 = p2->next;\n    }\n    \n    // 3. When the loop terminates, p1 is at the node corresponding \n    // to the 'positionFromTail' (e.g., if positionFromTail=0, p1 is at the tail).\n    return p1->data;\n}\n\nint main()\n{\n    ofstream fout(getenv(\"OUTPUT_PATH\"));\n\n    int tests;\n    cin >> tests;\n    cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n    for (int tests_itr = 0; tests_itr < tests; tests_itr++) {\n        SinglyLinkedList* llist = new SinglyLinkedList();\n\n        int llist_count;\n        cin >> llist_count;\n        cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n        for (int i = 0; i < llist_count; i++) {\n            int llist_item;\n            cin >> llist_item;\n            cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n            llist->insert_node(llist_item);\n        }\n\n        int position;\n        cin >> position;\n        cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n\n        int result = getNode(llist->head, position);\n\n        fout << result << \"\\n\";\n    }\n\n    fout.close();\n\n    return 0;\n}",
+        "readme": "null\n\nThis challenge is part of a tutorial track by MyCodeSchool\n\nGiven a pointer to the head of a linked list and a specific position, determine the data value at that position. Count backwards from the tail node. The tail is at postion 0, its parent is at 1 and so on.\n\nExample\n refers to \n\n\nEach of the data values matches its distance from the tail. The value  is at the desired position.\n\nFunction Description\n\nComplete the getNode function in the editor below.\n\ngetNode has the following parameters:\n\nSinglyLinkedListNode pointer head: refers to the head of the list\nint positionFromTail: the item to retrieve\n\nReturns\n\nint: the value at the desired position\n\nInput Format\n\nThe first line contains an integer , the number of test cases.\n\nEach test case has the following format:\nThe first line contains an integer , the number of elements in the linked list.\nThe next  lines contains an integer, the data value for an element of the linked list.\nThe last line contains an integer , the position from the tail to retrieve the value of.\n\nConstraints\n\n, where  is the  element of the linked list.\n\nSample Input\n\n2\n1\n1\n0\n3\n3\n2\n1\n2\n\n\nSample Output\n\n1\n3\n\n\nExplanation\n\nIn the first case, there is one element in linked list with a value of 1. The last (only) element contains 1.\n\nIn the second case, the list is . The element with position of 2 from tail contains 3.",
+        "notes": ""
+      },
+      "hasCode": true,
+      "hasReadme": true,
+      "hasNotes": false,
+      "lastUpdated": "2025-09-27T09:05:20.000Z"
     },
     {
       "id": "hackerrank-medium-inserting-a-node-into-a-sorted-doubly-linked-list",
