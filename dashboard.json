@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "totalProblems": 39,
-    "lastUpdated": "2025-09-27T09:56:25.261Z",
+    "totalProblems": 40,
+    "lastUpdated": "2025-09-27T10:01:19.263Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -16,8 +16,8 @@
         "Hard": 1
       },
       "Leetcode": {
-        "total": 11,
-        "Easy": 5,
+        "total": 12,
+        "Easy": 6,
         "Medium": 5,
         "Hard": 1
       },
@@ -493,6 +493,22 @@
       "hasReadme": true,
       "hasNotes": false,
       "lastUpdated": "2025-09-27T09:00:13.000Z"
+    },
+    {
+      "id": "leetcode-easy-plus-one",
+      "platform": "Leetcode",
+      "difficulty": "Easy",
+      "problemName": "Plus One",
+      "language": "java",
+      "files": {
+        "code": "class Solution {\n    public int[] plusOne(int[] digits) {\n        int n = digits.length;\n        \n        // 1. Iterate from Right to Left\n        for (int i = n - 1; i >= 0; i--) {\n            \n            // 2. Case 1: Digit is Less Than 9\n            if (digits[i] < 9) {\n                digits[i]++; // Increment the current digit\n                return digits; // No carry-over, return the result\n            }\n            \n            // 3. Case 2: Digit is 9\n            // Set it to 0 and continue to the left to handle the carry\n            digits[i] = 0; \n        }\n        \n        // 4. Case 3: All Digits Were 9 (e.g., [9, 9] -> [1, 0, 0])\n        // We need a new array with an extra digit\n        int[] newDigits = new int[n + 1];\n        newDigits[0] = 1; // The carry-over becomes the new most significant digit\n        // The remaining elements of newDigits are already 0\n        \n        return newDigits;\n    }\n}",
+        "readme": "ArrayMath\n\nYou are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.\n\nIncrement the large integer by one and return the resulting array of digits.\n\n \nExample 1:\n\nInput: digits = [1,2,3]\nOutput: [1,2,4]\nExplanation: The array represents the integer 123.\nIncrementing by one gives 123 + 1 = 124.\nThus, the result should be [1,2,4].\n\n\nExample 2:\n\nInput: digits = [4,3,2,1]\nOutput: [4,3,2,2]\nExplanation: The array represents the integer 4321.\nIncrementing by one gives 4321 + 1 = 4322.\nThus, the result should be [4,3,2,2].\n\n\nExample 3:\n\nInput: digits = [9]\nOutput: [1,0]\nExplanation: The array represents the integer 9.\nIncrementing by one gives 9 + 1 = 10.\nThus, the result should be [1,0].\n\n\n \nConstraints:\n\n\n\t1 <= digits.length <= 100\n\t0 <= digits[i] <= 9\n\tdigits does not contain any leading 0's.",
+        "notes": ""
+      },
+      "hasCode": true,
+      "hasReadme": true,
+      "hasNotes": false,
+      "lastUpdated": "2025-09-27T10:01:11.000Z"
     },
     {
       "id": "leetcode-easy-remove-duplicates-from-sorted-list",
