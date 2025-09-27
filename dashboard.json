@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "totalProblems": 36,
-    "lastUpdated": "2025-09-27T08:59:21.866Z",
+    "totalProblems": 37,
+    "lastUpdated": "2025-09-27T09:00:24.016Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -16,8 +16,8 @@
         "Hard": 1
       },
       "Leetcode": {
-        "total": 9,
-        "Easy": 3,
+        "total": 10,
+        "Easy": 4,
         "Medium": 5,
         "Hard": 1
       },
@@ -461,6 +461,22 @@
       "hasReadme": true,
       "hasNotes": false,
       "lastUpdated": "2025-08-25T11:54:23.000Z"
+    },
+    {
+      "id": "leetcode-easy-palindrome-number",
+      "platform": "Leetcode",
+      "difficulty": "Easy",
+      "problemName": "Palindrome Number",
+      "language": "java",
+      "files": {
+        "code": "class Solution {\n    public boolean isPalindrome(int x) {\n        // Condition 1: If x is negative, it can't be a palindrome (e.g., -121).\n        // Condition 2: If the number ends in 0 (x % 10 == 0) and is not 0 itself, \n        // it can't be a palindrome (e.g., 10, 200). \n        // Only 0 is a palindrome that ends in 0.\n        if (x < 0 || (x % 10 == 0 && x != 0)) {\n            return false;\n        }\n\n        int reversedNumber = 0;\n        \n        // Loop to build the reversed number.\n        // We stop when reversedNumber becomes greater than or equal to x.\n        // This means we've processed half of the digits.\n        while (x > reversedNumber) {\n            int digit = x % 10;\n            reversedNumber = reversedNumber * 10 + digit;\n            x /= 10;\n        }\n\n        // A palindrome check requires comparing the original number's first half (x)\n        // with the reversed number's first half (reversedNumber).\n        \n        // Case 1: The number has an even number of digits (e.g., 1221).\n        // The loop will stop when x == reversedNumber (12 == 12).\n        // We return x == reversedNumber.\n        \n        // Case 2: The number has an odd number of digits (e.g., 121).\n        // The loop will stop when x < reversedNumber (1 < 12). \n        // The middle digit is now the last digit of reversedNumber (2).\n        // To ignore the middle digit, we divide reversedNumber by 10 (12 / 10 = 1).\n        // We return x == reversedNumber / 10.\n        \n        return x == reversedNumber || x == reversedNumber / 10;\n    }\n}",
+        "readme": "Math\n\nGiven an integer x, return true if x is a palindrome, and false otherwise.\n\n \nExample 1:\n\nInput: x = 121\nOutput: true\nExplanation: 121 reads as 121 from left to right and from right to left.\n\n\nExample 2:\n\nInput: x = -121\nOutput: false\nExplanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.\n\n\nExample 3:\n\nInput: x = 10\nOutput: false\nExplanation: Reads 01 from right to left. Therefore it is not a palindrome.\n\n\n \nConstraints:\n\n\n\t-231 <= x <= 231 - 1\n\n\n \nFollow up: Could you solve it without converting the integer to a string?",
+        "notes": ""
+      },
+      "hasCode": true,
+      "hasReadme": true,
+      "hasNotes": false,
+      "lastUpdated": "2025-09-27T09:00:13.000Z"
     },
     {
       "id": "leetcode-easy-remove-duplicates-from-sorted-list",
