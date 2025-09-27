@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalProblems": 35,
-    "lastUpdated": "2025-09-27T08:50:23.122Z",
+    "lastUpdated": "2025-09-27T08:50:48.801Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -582,13 +582,13 @@
       "language": "cpp",
       "files": {
         "code": "class Solution {\npublic:\n    int totalNQueens(int n) {\n        // sets to track attacked columns and diagonals\n        unordered_set<int> cols, diag1, diag2;\n        int count = 0;\n\n        function<void(int)> backtrack = [&](int row) {\n            if (row == n) {\n                count++;\n                return;\n            }\n\n            for (int col = 0; col < n; col++) {\n                if (cols.count(col) || diag1.count(row - col) ||\n                    diag2.count(row + col))\n                    continue;\n\n                // place queen\n                cols.insert(col);\n                diag1.insert(row - col);\n                diag2.insert(row + col);\n\n                backtrack(row + 1);\n\n                // remove queen (backtrack)\n                cols.erase(col);\n                diag1.erase(row - col);\n                diag2.erase(row + col);\n            }\n        };\n\n        backtrack(0);\n        return count;\n    }\n};",
-        "readme": "52. N-Queens IISolvedHardTopicsCompaniesThe n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.\n\nGiven an integer n, return the number of distinct solutions to the n-queens puzzle.\n\n \nExample 1:\n\nInput: n = 4\nOutput: 2\nExplanation: There are two distinct solutions to the 4-queens puzzle as shown.\n\n\nExample 2:\n\nInput: n = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= n <= 9\n\n Seen this question in a real interview before?1/5YesNoAccepted520,328/674KAcceptance Rate77.2%TopicsBacktrackingCompaniesSimilar QuestionsN-QueensHardDiscussion (94)Choose a typeComment💡 Discussion Rules1. Please don't post any solutions in this discussion.2. The problem discussion is for asking questions about the problem or for sharing tips - anything except for solutions.3. If you'd like to share your solution for feedback and ideas, please head to the solutions tab and post it there.Sort by:BestNo comments yet.123410Copyright © 2025 LeetCode. All rights reserved.",
+        "readme": "Backtracking\n\nThe n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.\n\nGiven an integer n, return the number of distinct solutions to the n-queens puzzle.\n\n \nExample 1:\n\nInput: n = 4\nOutput: 2\nExplanation: There are two distinct solutions to the 4-queens puzzle as shown.\n\n\nExample 2:\n\nInput: n = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= n <= 9",
         "notes": "# N-Queens II\n\n          **Summary:** This code implements a solution using C++. It processes data through iterative operations and appears to solve the given problem efficiently.\n\n          - Time Complexity: O(n)\n          - Space Complexity: O(1)"
       },
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": true,
-      "lastUpdated": "2025-08-25T18:59:19.000Z"
+      "lastUpdated": "2025-09-27T08:50:40.000Z"
     }
   ]
 }
