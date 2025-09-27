@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalProblems": 35,
-    "lastUpdated": "2025-09-26T21:15:33.747Z",
+    "lastUpdated": "2025-09-27T08:31:12.784Z",
     "breakdown": {
       "Codechef": {
         "total": 4,
@@ -486,13 +486,13 @@
       "language": "java",
       "files": {
         "code": "import java.util.Arrays;\nimport java.util.HashMap;\nimport java.util.Map;\n\nclass Solution {\n    public boolean isAnagram(String s, String t) {\n        if (s.length() != t.length()) return false;\n        // HashMap <Character,Integer> mapS = new HashMap<>();\n        // HashMap <Character,Integer> mapT = new HashMap<>();\n\n        // for(int i=0;i<s.length();i++){\n        //     char charS = s.charAt(i);     \n        //     char charT = t.charAt(i);\n            \n        //     // \n        //     mapS.put(charS, mapS.getOrDefault(charS, 0) + 1);\n        //     mapT.put(charT, mapT.getOrDefault(charT, 0) + 1);\n        // }\n        // return mapS.equals(mapT);\n        char[] originalArr = s.toCharArray();\n        char[] modifiedArr = t.toCharArray();\n\n        Arrays.sort(originalArr);\n        Arrays.sort(modifiedArr);\n\n        return Arrays.equals(originalArr, modifiedArr);\n    }\n}",
-        "readme": "242. Valid AnagramSolvedEasyTopicsCompaniesGiven two strings s and t, return true if t is an anagram of s, and false otherwise.\n\n \nExample 1:\n\n\nInput: s = \"anagram\", t = \"nagaram\"\n\nOutput: true\n\n\nExample 2:\n\n\nInput: s = \"rat\", t = \"car\"\n\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= s.length, t.length <= 5 * 104\n\ts and t consist of lowercase English letters.\n\n\n \nFollow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?\n Seen this question in a real interview before?1/5YesNoAccepted5,151,529/7.7MAcceptance Rate67.0%TopicsHash TableStringSortingCompaniesSimilar QuestionsGroup AnagramsMediumPalindrome PermutationEasyFind All Anagrams in a StringMediumFind Resultant Array After Removing AnagramsEasyDiscussion (277)Choose a typeComment💡 Discussion Rules1. Please don't post any solutions in this discussion.2. The problem discussion is for asking questions about the problem or for sharing tips - anything except for solutions.3. If you'd like to share your solution for feedback and ideas, please head to the solutions tab and post it there.Sort by:BestMuhsin Ali KulbakDec 16, 2023 Read more2365Shaikh Jashir AhmedJul 12, 2023bro what do you mean \"...typically using all the original letters exactly once.\" Does it use every letter exactly once or not??? Read more597Lubor LiuJan 04, 2016Any discussion on how to handle the unicode? Read more5213Ram GoswamiMar 07, 2022If t is the anagram of s then by comparing both sorted strings can give the answer\nIf t is amagram of s then sorted t must be same as sorted s so,\n\"\"\"\nreturn sorted(s) == sorted(t)\n\"\"\" Read more11310AlecDec 16, 2023 Read more653AlgoEngineAug 12, 2023Visualization of hash table approach\n Read more40enamespaceMay 16, 2019when i solve the problem by using array[26], i check the NO.1 solution. he solve the problem by using calculation?\ni wonder whether it's math trick or it's simply a his hash function ?\ni guess it's a hash function with big probability to ensure no collision so far.\n Read more214Iqra SarwarJan 17, 2023why it is t anagram of s when it is have testcases like\ns=\"ab\"\nt=\"a\"\nand\ns=\"a\"\nt=\"ab\"\nboth giving false. isn't it should be both strings anagram of each other? Read more177JacksonJun 15, 2017There seems no discussion about the followup Unicode question. May I ask that is there any idea about it?\nThe question is a bit vague for me. I understand that Unicode is a binary coding method regardless of program/platform, but how can it reflect on an input string? Read more264harnalerohanApr 20, 2022var isAnagram = (s, t) => s.split('').sort().join('') === t.split('').sort().join('') ? true : false Read more225123428Copyright © 2025 LeetCode. All rights reserved.",
+        "readme": "HashTableStringSorting\n\nGiven two strings s and t, return true if t is an anagram of s, and false otherwise.\n\n \nExample 1:\n\n\nInput: s = \"anagram\", t = \"nagaram\"\n\nOutput: true\n\n\nExample 2:\n\n\nInput: s = \"rat\", t = \"car\"\n\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= s.length, t.length <= 5 * 104\n\ts and t consist of lowercase English letters.\n\n\n \nFollow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?",
         "notes": ""
       },
       "hasCode": true,
       "hasReadme": true,
       "hasNotes": false,
-      "lastUpdated": "2025-08-25T13:31:41.000Z"
+      "lastUpdated": "2025-09-27T08:31:02.000Z"
     },
     {
       "id": "leetcode-medium-combination-sum-ii",
